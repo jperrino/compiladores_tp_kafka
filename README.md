@@ -8,13 +8,13 @@
 
 ## Setup:
 - Clone the repo.
-- Cd to the root folder
+- Change directory to the project root folder.
 - Run command:
 `docker-compose -f docker-compose.yml up -d`
-- Run command: `docker exec -it kafka /bin/sh` to access bash console
+- Run command: `docker exec -it kafka /bin/sh` to access bash console.
 - Change directory to `opt/kafka`
 - Run command to create **test** topic: 
 `./bin/kafka-topics.sh --create --zookeeper zookeeper:2181 --replication-factor 1 --partitions 1 --topic test`
-- Open project in IntelliJ
-- Build and run **SampleProducer**
-- Build and run **SampleConsumer**
+- Open project in IntelliJ.
+- Build and run **SampleProducer**.
+- Build and run **SampleConsumer**.
